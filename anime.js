@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
       header.style.backgroundPositionY = `${scrollY * 0.3}px`;
     });
   
-    // Hover highlight effect
+    // Hover animation on entries
     document.querySelectorAll(".entry").forEach((entry) => {
       entry.addEventListener("mouseenter", () => {
         entry.style.transform = "scale(1.03)";
